@@ -1,0 +1,16 @@
+[package]
+name = "str-kernel"
+version = "0.1.0"
+authors = ["ujiuji1259 <suzzz428@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "str_kernel"
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.pyo3]
+version = "0.14.1"
+features = ["extension-module"]
+
