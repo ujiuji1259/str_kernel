@@ -5,6 +5,8 @@
 ## カーネル
 - LCS（最長共通部分列）
 - スペクトルカーネル
+- 固定長部分列カーネル
+- ギャップ加重部分列カーネル
 
 ## Python
 ### インストール
@@ -15,3 +17,5 @@
 ### Functions
 - `gram_matrix_lcs(List[Str], List[Str])`
 - `gram_matrix_spectrum(p, List[Str], List[Str])`
+- `gram_matrix_psubseq(p, List[Str], List[Str])`
+- `gram_matrix_gapsubseq(lambda, p, List[Str], List[Str])`
