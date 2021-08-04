@@ -1,0 +1,23 @@
+package:
+  name: str_kernel
+  version: 0.6.0
+
+source:
+  git_url: https://github.com/ujiuji1259/str_kernel.git
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - pip
+    - maturin
+
+test:
+  imports:
+    - str_kernel
+
+about:
+  home: https://github.com/ujiuji1259/str_kernel.git
+  license: Apache License 2.0
